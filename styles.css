@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap');
+
+*{
+  font-family: "Epilogue";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px;
+}
+
+.headertext{
+  height: 81px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.44px;
+  color: #172339;
+}
+
+.headerbutton {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.14px;
+  color: #172339;
+  border-radius: 6px;
+  border: 1px solid #172339;
+  width: 182px;
+  height: 48px;
+  background-color: white;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  letter-spacing: -0.53px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.09px;
+  color: #49566D;
+}
+h3 {
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color:#F3EDE7;
+}
+
+.content{
+  width: 343.5px;
+  height: 325.32px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/Path\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: 80% 1%;
+}
+
+.content h1 {
+  width: 343px;
+  height: 89px;
+  padding-top: 27px;
+}
+
+.content h2 {
+  padding-top: 70px;
+  width: 343px;
+  height: 84px;
+}
+
+.buttoneone {
+  padding-top: 90px;
+
+}
+
+.contentbutton {
+  padding-top: 200;
+  width: 256px;
+  height: 61px;
+  border-radius: 6px;
+  border: 1px solid #172339;
+  background-color: #172339;
+  color: white;
+  cursor: pointer;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backgrounddiv {
+  width: 343px;
+  height: 240px;
+  background: radial-gradient(100% 100% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 15px;
+  margin-top: 54px;
+  background-image: url(./assets/Group.svg);
+
+}
+
+
+
+.stats {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 32px
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 257px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #F3EDE7;
+  
+
+}
+
+.bluebox h4 {
+  height: 48px;
+  letter-spacing: -0.42px;
+  text-align: center;
+  color: white;
+  margin-top: 338px;
+}
+
+.bluebox h5 {
+  line-height: 32px;
+  letter-spacing: 0.09px;
+  text-align: center;
+  width: 343px;
+  height: 160px;
+  margin-top: 35px;
+  color: #F3EDE7;
+  opacity: 0.8;
+}
+
+.bluebox {
+  height: 748px;
+  width: 100%;
+  background: #172339;
+  border-radius: 15px;
+  /* margin-top: 237px; */
+  position: relative;
+  background-image: url(./assets/Path\ 2\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+}
+.itjust {
+
+  font-weight: 500;
+
+}
+
+.ceoname {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+.ceoname h5 {
+  margin: 0;
+  width: 190px;
+  height: 26px;
+}
+
+.jeremy {
+  font-weight: 700;
+  width: 165px;
+  height: 32px;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #FAF8F6;
+}
+
+.man {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25%;
+}
+
+.footerend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F3EDE7;
+  height: 280px;
+}
+
+
+.footerend .headertext {
+  text-align: center;
+}
+
+.lastthreetext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 56px;
+  row-gap: 33px;
+}
+
+h6 {
+  width: 125px;
+  height: 32px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 28px;
+}
+
+.contentbackground {
+  display: none;
+}
+
+.firstbackgroundoffirstdiv {
+  display: none;
+}
+
+.content span {
+  font-weight: 500;
+}

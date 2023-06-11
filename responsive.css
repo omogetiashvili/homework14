@@ -1,0 +1,315 @@
+@media screen and (width >= 768px) {
+
+  .container {
+    width: 100%;
+  }
+  
+  .main {
+    display: flex;
+  
+  }
+
+  .backgrounddiv {
+    background-image: url(./assets/Group\ \(1\).svg);
+    background-repeat: no-repeat;
+    width: 281px;
+    height: 482px;
+    margin: 0;
+    background-position: 100% 100%;
+  }
+
+  .contentandbackground {
+    display: flex;
+    flex: row;
+    position: relative;
+    z-index: 0;
+    width: 689px;
+    height: 482px;
+    justify-content: space-between;
+    margin-top: 80px;
+
+  }
+
+  .content {
+    background-image: none;
+  }
+  .firstbackgroundoffirstdiv {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    bottom: 80%;
+    left: 30%;
+  }
+
+  .content h1{
+    width: 573px;
+    height: 129px;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.78px;
+    position: absolute;
+    z-index: 1;
+    color: #172339;
+    margin-top: 40px;
+
+  }
+
+  .content h2 {
+    width: 350px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+    font-weight: 400;
+    margin-top: 170px;
+    margin-bottom: 40px;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+    margin-top: 90px;
+  }
+
+  .bluebox {
+    width: 90%;
+    position: absolute;
+    top: -250px;
+  
+  }
+
+  .bluebox h4 {
+    width: 573px;
+    height: 48px;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .bluebox h5 {
+    width: 573px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    margin-top: 480px;
+    position: relative;
+    height: 700px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+  
+  }
+
+  .footerend {
+    position: absolute;
+    top: 75%;
+    height: 32px;
+    display: flex;
+    width: 100%;
+    
+    
+    
+
+  }
+
+  .lastthreetext {
+
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  }
+  
+  
+}
+
+
+
+
+
+
+@media screen and (width >= 1448px) {
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .header {
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    height: 600px;
+    position: relative;  
+  
+  }
+  
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  column-gap: 1px;
+  margin: 0;
+  margin-left: 150px;
+  row-gap: 60px;
+  margin-top: 60px;
+  
+}
+
+
+.box h3 {
+  text-align: start;
+}
+
+.box h2 {
+  text-align: start;
+}
+
+  .box {
+    display: flex;
+    
+  }
+  
+  .content h1 {
+    width: 635px;
+    height: 156px;
+    font-size: 72px;
+    line-height: 78px;
+    position: absolute;
+  }
+  
+  .backgrounddiv {
+    position: absolute;
+    left: 70%;
+    
+  }
+  
+  .firstbackgroundoffirstdiv {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    
+  }
+
+  .bluebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: 545px;
+    background-position-x: 45%;
+  }
+
+  .man {
+    width: 375px;
+    height: 600px;
+    left: 20%;
+    top: -55px;
+    
+
+  }
+
+  .blueboxtexts {
+    
+    width: 350px;
+    height: 369px;
+  }
+
+  .blueboxtexts h4{
+    margin: 0;
+    width: 299px;
+    height: 56px;
+    font-size: 48px;
+    line-height: 56px;
+
+  }
+  .blueboxtexts h5{
+    margin: 0;
+    width: 350px;
+    height: 175px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: start;
+    padding-top: 40px;
+
+  }
+
+  .ceoname {
+    
+    height: 100px;
+    align-items: baseline;
+    display: flex;
+    margin-top: 80px;
+    
+  }
+
+  .ceoname h5 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer {
+    height: 550px;
+  }
+
+  .footerend {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+
+  .headerbutton:hover {
+
+    background-color: #172339;
+    color: #FAF8F6;
+    transition: 0.4s;
+
+
+  }
+
+  .contentbutton:hover {
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+    color:#FAF8F6;
+    transition: 0.5s;
+    border: none;
+  }
+
+  svg path:hover {
+    fill: gray;
+  }
+
+  svg {
+    cursor: pointer;
+  }
+
+
+  
+  
+  
+  
+}
+  
+  
+  
